@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green Earth</title>
+    <!-- style font -->
+    <link rel="stylesheet" href="./style.css" />
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- fontAwesome cdn -->
@@ -15,7 +17,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body class="inter-font">
     <!-- nav bar section starts here -->
     <nav class="bg-[#15803D]">
       <div
@@ -26,21 +28,45 @@
         </div>
 
         <div class="text-lg text-white font-semibold flex gap-5">
-          <a href="">About</a>
+          <a class="hover:first-line:bg-red-400" href="">About</a>
 
-          <a href="">Gallery</a>
+          <a class="hover:first-line:bg-red-400" href="">Gallery</a>
 
-          <a href="">Plant a Tree</a>
+          <a class="hover:first-line:bg-red-400" href="">Plant a Tree</a>
         </div>
 
         <div>
           <button
-            class="text-lg font-semibold text-[#15803D] px-5 py-2 bg-[#FACC15] rounded-full"
+            class="text-lg font-semibold text-[#15803D] px-5 py-3 bg-[#FACC15] rounded-full"
           >
             Plant a Tree
           </button>
         </div>
       </div>
     </nav>
+    <!-- Banner section starts here -->
+    <section class="bg-[#cff0dc]">
+      <div class="flex justify-between items-center mx-auto">
+        <div>
+          <img src="./assets/hero-leaf1.png" alt="" />
+        </div>
+        <div class="text-center">
+          <h1 class="md:text-[48px] font-bold">Plant a Tree, Grow a Future</h1>
+          <p>
+            Join our mission to plant 1 million trees and make the Earth greener
+            for future <br />
+            generations.
+          </p>
+          <button
+            class="text-lg font-semibold text-[#15803D] px-5 py-3 bg-[#FACC15] rounded-full mt-6"
+          >
+            Get Involved
+          </button>
+        </div>
+        <div>
+          <img src="./assets/hero-leaf2.png" alt="" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
