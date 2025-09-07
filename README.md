@@ -3,39 +3,39 @@
 
         let-
 
-    1.Introduced in ES6 modern JavaScript.
+    1. Introduced in ES6 modern JavaScript.
 
-    2.Scope -> Block-scoped({ }).
+    2. Scope -> Block-scoped({ }).
 
-    3.Re-declare -> Not allowed in the same scope.
+    3. Re-declare -> Not allowed in the same scope.
 
-    4.Re-assign -> Allowed.
+    4. Re-assign -> Allowed.
 
-    5.Hoisting -> Variables declared with let are hoisted to the top of their block scope but are not initialized. Accessing them before the declaration results in a ReferenceError due to the "temporal dead zone".
+    5. Hoisting -> Variables declared with let are hoisted to the top of their block scope but are not initialized. Accessing them before the declaration results in a ReferenceError due to the "temporal dead zone".
 
-        const-
+       const-
 
-    1.Introduced in ES6 modern JavaScript.
+    6. Introduced in ES6 modern JavaScript.
 
-    2.Scope -> Block-scoped({ }).
+    7. Scope -> Block-scoped({ }).
 
-    3.Re-declare -> Not allowed in the same scope.
+    8. Re-declare -> Not allowed in the same scope.
 
-    4.Re-assign -> Not allowed.
+    9. Re-assign -> Not allowed.
 
-    5.Hoisting -> Variables declared with const are hoisted to the top of their block scope but are not initialized. Accessing them before the declaration results in a ReferenceError due to the "temporal dead zone".
+    10. Hoisting -> Variables declared with const are hoisted to the top of their block scope but are not initialized. Accessing them before the declaration results in a ReferenceError due to the "temporal dead zone".
 
         var-
 
-    1.Introduced in the early versions of JavaScript.
+    11. Introduced in the early versions of JavaScript.
 
     2.Scope -> Function-scoped.
 
-    3.Re-declare -> Allowed in the same scope.
+    3. Re-declare -> Allowed in the same scope.
 
-    4.Re-assign -> Allowed.
+    4. Re-assign -> Allowed.
 
-    5.Hoisting -> Variables declared with var are hoisted to the top of their function scope and initialized with undefined. Accessing them before the declaration does not result in an error, but the value will be undefined.
+    5. Hoisting -> Variables declared with var are hoisted to the top of their function scope and initialized with undefined. Accessing them before the declaration does not result in an error, but the value will be undefined.
 
 2.  What is the difference between map(), forEach(), and filter()?
     Ans:-
