@@ -4,25 +4,37 @@
         let-
 
     1.Introduced in ES6 modern JavaScript.
+
     2.Scope -> Block-scoped({ }).
+
     3.Re-declare -> Not allowed in the same scope.
+
     4.Re-assign -> Allowed.
+
     5.Hoisting -> Variables declared with let are hoisted to the top of their block scope but are not initialized. Accessing them before the declaration results in a ReferenceError due to the "temporal dead zone".
 
         const-
 
     1.Introduced in ES6 modern JavaScript.
+
     2.Scope -> Block-scoped({ }).
+
     3.Re-declare -> Not allowed in the same scope.
+
     4.Re-assign -> Not allowed.
+
     5.Hoisting -> Variables declared with const are hoisted to the top of their block scope but are not initialized. Accessing them before the declaration results in a ReferenceError due to the "temporal dead zone".
 
         var-
 
     1.Introduced in the early versions of JavaScript.
+
     2.Scope -> Function-scoped.
+
     3.Re-declare -> Allowed in the same scope.
+
     4.Re-assign -> Allowed.
+
     5.Hoisting -> Variables declared with var are hoisted to the top of their function scope and initialized with undefined. Accessing them before the declaration does not result in an error, but the value will be undefined.
 
 2.  What is the difference between map(), forEach(), and filter()?
@@ -31,26 +43,37 @@
         map()-
 
     1.The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
     2.It returns a new array.
+
     3.It does not modify the original array.
+
     4.It is used when you want to transform each element of an array.
 
         forEach()-
 
     1.The forEach() method executes a provided function once for each array element.
+
     2.It does not return a new array; it returns undefined.
+
     3.It does not modify the original array.
+
     4.It is used when you want to perform side effects (like logging or updating external variables) for each element in an array.
 
         filter()-
 
     1.The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+
     2.It returns a new array containing only the elements that satisfy the condition.
+
     3.It does not modify the original array.
+
     4.It is used when you want to select a subset of elements from an array based on a condition.
 
 3.  What are arrow functions in ES6?
+
     Ans:-
+
     Arrow functions, introduced in ES6 (ECMAScript 2015), are a more concise syntax for writing function expressions in JavaScript. They are often used for shorter functions and have some differences compared to traditional function expressions.
 
     Syntax:
@@ -91,7 +114,9 @@
     ```
 
 4.  How does destructuring assignment work in ES6?
+
     Ans:-
+
     Destructuring assignment is a feature in ES6 (ECMAScript 2015) that allows you to unpack values from arrays or properties from objects into distinct variables. This syntax provides a more concise and readable way to extract data from complex structures.
 
     There are two main types of destructuring: array destructuring and object destructuring.
@@ -155,6 +180,7 @@
     ```
 
 5.  Explain template literals in ES6. How are they different from string concatenation?
+
     Ans:-
     Template literals, introduced in ES6 (ECMAScript 2015), are a new way to work with strings in JavaScript. They provide a more flexible and readable syntax for creating strings compared to traditional string concatenation.
 
