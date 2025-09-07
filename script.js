@@ -206,7 +206,7 @@ document
     }
   });
 
-// 🗑 remove button handler (event delegation)
+// remove button handler
 document
   .getElementById("add-to-cart-main-section")
   .addEventListener("click", (e) => {
