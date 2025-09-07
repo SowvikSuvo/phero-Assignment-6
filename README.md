@@ -29,52 +29,52 @@
 
     11. Introduced in the early versions of JavaScript.
 
-    2.Scope -> Function-scoped.
+    12. Scope -> Function-scoped.
 
-    3. Re-declare -> Allowed in the same scope.
+    13. Re-declare -> Allowed in the same scope.
 
-    4. Re-assign -> Allowed.
+    14. Re-assign -> Allowed.
 
-    5. Hoisting -> Variables declared with var are hoisted to the top of their function scope and initialized with undefined. Accessing them before the declaration does not result in an error, but the value will be undefined.
+    15. Hoisting -> Variables declared with var are hoisted to the top of their function scope and initialized with undefined. Accessing them before the declaration does not result in an error, but the value will be undefined.
 
 2.  What is the difference between map(), forEach(), and filter()?
     Ans:-
 
         map()-
 
-    1.The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+    1. The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
 
-    2.It returns a new array.
+    2. It returns a new array.
 
-    3.It does not modify the original array.
+    3. It does not modify the original array.
 
-    4.It is used when you want to transform each element of an array.
+    4. It is used when you want to transform each element of an array.
 
-        forEach()-
+       forEach()-
 
-    1.The forEach() method executes a provided function once for each array element.
+    5. The forEach() method executes a provided function once for each array element.
 
-    2.It does not return a new array; it returns undefined.
+    6. It does not return a new array; it returns undefined.
 
-    3.It does not modify the original array.
+    7. It does not modify the original array.
 
-    4.It is used when you want to perform side effects (like logging or updating external variables) for each element in an array.
+    8. It is used when you want to perform side effects (like logging or updating external variables) for each element in an array.
 
-        filter()-
+       filter()-
 
-    1.The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+    9. The filter() method creates a new array with all elements that pass the test implemented by the provided function.
 
-    2.It returns a new array containing only the elements that satisfy the condition.
+    10. It returns a new array containing only the elements that satisfy the condition.
 
-    3.It does not modify the original array.
+    11. It does not modify the original array.
 
-    4.It is used when you want to select a subset of elements from an array based on a condition.
+    12. It is used when you want to select a subset of elements from an array based on a condition.
 
 3.  What are arrow functions in ES6?
 
     Ans:-
 
-    Arrow functions, introduced in ES6 (ECMAScript 2015), are a more concise syntax for writing function expressions in JavaScript. They are often used for shorter functions and have some differences compared to traditional function expressions.
+    Arrow functions, introduced in ES6, are a more concise syntax for writing function expressions in JavaScript. They are often used for shorter functions and have some differences compared to traditional function expressions.
 
     Syntax:
 
@@ -90,15 +90,15 @@
 
     Key Features of Arrow Functions:
 
-    1.Concise Syntax: Arrow functions have a shorter syntax compared to traditional function expressions, especially for single-expression functions where the return statement is implicit.
+    1. Concise Syntax: Arrow functions have a shorter syntax compared to traditional function expressions, especially for single-expression functions where the return statement is implicit.
 
-    2.Lexical `this`: Arrow functions do not have their own `this` context. Instead, they inherit `this` from the surrounding lexical scope. This is particularly useful in scenarios where you want to maintain the context of `this` from the outer function.
+    2. Lexical `this`: Arrow functions do not have their own `this` context. Instead, they inherit `this` from the surrounding lexical scope. This is particularly useful in scenarios where you want to maintain the context of `this` from the outer function.
 
-    3.No `arguments` Object: Arrow functions do not have their own `arguments` object. If you need to access the arguments passed to an arrow function, you can use rest parameters (`...args`).
+    3. No `arguments` Object: Arrow functions do not have their own `arguments` object. If you need to access the arguments passed to an arrow function, you can use rest parameters (`...args`).
 
-    4.Cannot be used as Constructors: Arrow functions cannot be used as constructors and will throw an error if you try to use them with the `new` keyword.
+    4. Cannot be used as Constructors: Arrow functions cannot be used as constructors and will throw an error if you try to use them with the `new` keyword.
 
-    5.No `prototype`: Arrow functions do not have a `prototype` property, so they cannot be used to create instances of objects.
+    5. No `prototype`: Arrow functions do not have a `prototype` property, so they cannot be used to create instances of objects.
 
     Example:
 
@@ -117,12 +117,12 @@
 
     Ans:-
 
-    Destructuring assignment is a feature in ES6 (ECMAScript 2015) that allows you to unpack values from arrays or properties from objects into distinct variables. This syntax provides a more concise and readable way to extract data from complex structures.
+    Destructuring assignment is a feature in ES6 that allows you to unpack values from arrays or properties from objects into distinct variables. This syntax provides a more concise and readable way to extract data from complex structures.
 
     There are two main types of destructuring: array destructuring and object destructuring.
 
-    1.Array Destructuring:
-    You can extract values from an array and assign them to variables using square brackets [].
+    1. Array Destructuring:
+       You can extract values from an array and assign them to variables using square brackets [].
 
     Example:
 
@@ -145,8 +145,8 @@
     console.log(third); // Output: 3
     ```
 
-    2.Object Destructuring:
-    You can extract properties from an object and assign them to variables using curly braces {}.
+    2. Object Destructuring:
+       You can extract properties from an object and assign them to variables using curly braces {}.
 
     Example:
 
@@ -182,15 +182,15 @@
 5.  Explain template literals in ES6. How are they different from string concatenation?
 
     Ans:-
-    Template literals, introduced in ES6 (ECMAScript 2015), are a new way to work with strings in JavaScript. They provide a more flexible and readable syntax for creating strings compared to traditional string concatenation.
+    Template literals, introduced in ES6, are a new way to work with strings in JavaScript. They provide a more flexible and readable syntax for creating strings compared to traditional string concatenation.
 
     Key Features of Template Literals:
 
-    1.Backticks (` `): Template literals are enclosed in backticks instead of single (' ') or double (" ") quotes. This allows for multi-line strings without the need for escape characters.
+    1. Backticks (` `): Template literals are enclosed in backticks instead of single (' ') or double (" ") quotes. This allows for multi-line strings without the need for escape characters.
 
-    2.Interpolation: Template literals support interpolation, which means you can embed expressions directly within the string using the `${expression}` syntax. This makes it easy to include variables and expressions in the string without breaking it up.
+    2. Interpolation: Template literals support interpolation, which means you can embed expressions directly within the string using the `${expression}` syntax. This makes it easy to include variables and expressions in the string without breaking it up.
 
-    3.Multi-line Strings: Template literals can span multiple lines without the need for concatenation or escape characters, making it easier to create formatted strings.
+    3. Multi-line Strings: Template literals can span multiple lines without the need for concatenation or escape characters, making it easier to create formatted strings.
 
     Example of Template Literals:
 
@@ -212,11 +212,11 @@
 
     Comparison with String Concatenation:
 
-    1.Readability: Template literals are generally more readable than string concatenation, especially when dealing with multiple variables or expressions.
+    1. Readability: Template literals are generally more readable than string concatenation, especially when dealing with multiple variables or expressions.
 
-    2.Less Error-Prone: With template literals, you don't have to worry about adding spaces or plus signs (+) between strings and variables, reducing the chances of errors.
+    2. Less Error-Prone: With template literals, you don't have to worry about adding spaces or plus signs (+) between strings and variables, reducing the chances of errors.
 
-    3.Multi-line Support: Template literals allow for easy creation of multi-line strings without the need for escape characters or concatenation.
+    3. Multi-line Support: Template literals allow for easy creation of multi-line strings without the need for escape characters or concatenation.
 
     Example of String Concatenation:
 
