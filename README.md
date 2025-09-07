@@ -1,4 +1,5 @@
 1.  What is the difference between var, let, and const?
+
     Ans:-
 
         let-
@@ -38,6 +39,7 @@
     15. Hoisting -> Variables declared with var are hoisted to the top of their function scope and initialized with undefined. Accessing them before the declaration does not result in an error, but the value will be undefined.
 
 2.  What is the difference between map(), forEach(), and filter()?
+
     Ans:-
 
         map()-
@@ -182,6 +184,7 @@
 5.  Explain template literals in ES6. How are they different from string concatenation?
 
     Ans:-
+
     Template literals, introduced in ES6, are a new way to work with strings in JavaScript. They provide a more flexible and readable syntax for creating strings compared to traditional string concatenation.
 
     Key Features of Template Literals:
