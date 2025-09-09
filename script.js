@@ -211,7 +211,8 @@ document
   .getElementById("add-to-cart-main-section")
   .addEventListener("click", (e) => {
     if (e.target.classList.contains("remove-btn")) {
-      const itemDiv = e.target.closest("div.flex"); // পুরো cart item div
+      const itemDiv = e.target.closest("div.flex");
+      //cart item div
       const price = itemDiv.querySelector(".cart-item-price").innerText;
 
       // total update
